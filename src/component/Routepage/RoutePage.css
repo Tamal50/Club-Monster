@@ -16,3 +16,21 @@ h2{
     margin: 25px;
     font-size: larger;
 }
+.Icon{
+    text-align: center;
+    font-size: 80px;
+}
+#logo{
+    position: relative;
+    height: 230px;
+    width: 230px;
+    justify-items: center;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+.banner{
+    height: 350px;
+}
+.Condition{
+    margin-top: 5px;
+}

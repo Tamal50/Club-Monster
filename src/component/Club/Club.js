@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './club.css'
 import Team from '../Team/Team'
 import RoutePage from '../Routepage/RoutePage'
+import Header from '../Header/Header';
 
 const Club = () => {
   const [team, setTeam] = useState ([]);
@@ -13,7 +14,8 @@ const Club = () => {
   }, [])
   
     return (
-      
+      <div>
+        <Header></Header>
         <div className = "row">
          
             {
@@ -21,6 +23,7 @@ const Club = () => {
             }
             
         </div>
+      </div>
          
     );
 };
