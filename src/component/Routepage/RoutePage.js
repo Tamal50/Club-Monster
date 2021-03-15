@@ -41,13 +41,13 @@ const RoutePage = () => {
                       <p id="Description">Description : {team1.strDescriptionEN}</p>
                 </div>
                 <div className="Icon">
-                    <a target="_blank" href={`https:/${team1.strFacebook}`}>
+                    <a target="_blank" href={`https://${team1.strFacebook}`}>
                     <FontAwesomeIcon icon={faFacebook} />
                     </a>
-                    <a target="_blank" href={`https:/${team1.strInstagram}`}>
+                    <a target="_blank" href={`https://${team1.strInstagram}`}>
                     <FontAwesomeIcon icon={faInstagram} />
                     </a>
-                    <a target="_blank" href={`https:/${team1.strTwitter}`}>
+                    <a target="_blank" href={`https://${team1.strTwitter}`}>
                     <FontAwesomeIcon icon={faTwitter} />
                     </a>
                 </div>
