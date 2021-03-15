@@ -1,0 +1,17 @@
+h1{
+    color: blueviolet;
+    font-size: 80px;
+    padding-top: 55px;
+}
+.Header{
+    text-align: center;
+    background-image: url(../../image/nissan-stadium-wallpaper-preview.jpg);
+    /* position: fixed; */
+    min-height: 300px;
+    min-width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.Headerpage{
+    height: 300px;
+}

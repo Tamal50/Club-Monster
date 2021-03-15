@@ -1,0 +1,18 @@
+.Details{
+    margin: 30px;
+    border: 1px solid red;
+    background-color: blueviolet;
+    text-decoration-color: cornsilk;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+h2{
+    color: cornsilk;
+}
+#Name{
+    font-size: 50px;
+}
+#Description{
+    margin: 25px;
+    font-size: larger;
+}
